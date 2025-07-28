@@ -1,0 +1,45 @@
+name: Buscar Notícias
+
+on:
+  workflow_dispatch: # Permite iniciar manualmente pela interface do GitHub
+  schedule:
+    # Executa a cada 2 horas. O formato é (minuto hora dia mês dia-da-semana)
+    - cron: '0 */2 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Baixa o código do seu repositório para a máquina virtual
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configura o ambiente Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Instala as bibliotecas Python listadas no requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Executa o nosso script Python
+      - name: Run bot script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bot.py
+
+      # 5. Salva as alterações (o novo arquivo sent_links.txt) de volta no repositório
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sent_links.txt
+          # A linha abaixo só faz o commit se houver alguma alteração no arquivo
+          git diff --quiet && git diff --staged --quiet || git commit -m "Atualiza links de notícias enviados"
+          git push
