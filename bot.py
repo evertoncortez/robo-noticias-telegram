@@ -24,7 +24,7 @@ RSS_FEEDS = [
 ]
 
 # === PALAVRAS-CHAVE ===
-KEYWORDS = ["tecnologia", "ciência", "game", "jogo", "videogame", "celular", "smartphone", "android", "ios", "pc", "console", "lua", "fórmula 1", "robô", "kindle", "samsung", "tv", "amd", "intel", "galaxy", "apple", "nvidia", "chatgpt", "gemini", "nasa", "ia", "telescópio", "microsoft"]
+KEYWORDS = ["tecnologia", "ciência", "inteligência artificial", "inovação", "uber", "meta", "facebook", "biometria", "anatel", "starlink", "game", "jogo", "videogame", "celular", "smartphone", "android", "ios", "pc", "console", "lua", "fórmula 1", "robô", "kindle", "samsung", "tv", "amd", "intel", "galaxy", "apple", "nvidia", "chatgpt", "gemini", "nasa", "ia", "telescópio", "microsoft"]
 
 # === Funções para persistência de dados ===
 def carregar_links_enviados():
