@@ -10,7 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-permissions:
+    # CORREÇÃO: 'permissions' e 'steps' devem estar alinhados aqui, dentro de 'build'.
+    permissions:
       contents: write
 
     steps:
