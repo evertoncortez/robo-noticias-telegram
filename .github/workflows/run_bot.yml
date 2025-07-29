@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+permissions:
+      contents: write
+
     steps:
       # 1. Baixa o código do seu repositório para a máquina virtual
       - name: Checkout repository
