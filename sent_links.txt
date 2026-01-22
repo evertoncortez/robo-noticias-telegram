@@ -16406,3 +16406,4 @@ https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.c
 https://olhardigital.com.br/2026/01/21/curiosidades/a-cidade-brasileira-que-usa-tecnologia-de-sensores-para-ajudar-a-prever-enchentes-e-otimizar-transito/
 https://olhardigital.com.br/2026/01/21/videos/olhar-do-amanha-por-que-a-groenlandia-e-tao-importante/
 https://olhardigital.com.br/2026/01/21/curiosidades/o-cha-de-boldo-pode-realmente-aliviar-gases-ou-e-apenas-mito/
+https://olhardigital.com.br/2026/01/21/seguranca/malware-criado-com-ia-marca-nova-fase-do-cibercrime/
