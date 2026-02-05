@@ -400,3 +400,6 @@ https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.c
 https://olhardigital.com.br/2026/02/04/inteligencia-artificial/gemini-supera-750-milhoes-de-usuarios-ativos-mensais-diz-google/
 https://agenciabrasil.ebc.com.br/justica/noticia/2026-02/stf-marca-julgamento-que-vai-definir-alcance-da-lei-de-anistia
 https://canaltech.com.br/hardware/o-hd-nao-morreu-wd-anuncia-discos-de-100-tb-mais-rapidos-que-ssds-comuns/
+https://agenciabrasil.ebc.com.br/justica/noticia/2026-02/stj-abre-sindicancia-contra-ministro-acusado-de-importunacao-sexual
+https://g1.globo.com/tecnologia/noticia/2026/02/05/recebi-us-199-amazon-envia-cheques-para-alguns-brasileiros-apos-acordo-judicial-nos-eua.ghtml
+https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2026/02/05/transforme-a-inteligencia-artificial-em-sua-aliada.ghtml
